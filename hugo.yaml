@@ -1,7 +1,11 @@
 baseURL: "https://examplesite.com/"
-title: ExampleSite
+title: Tutorial Blog
 pagerSize: 10
 theme: PaperMod
+
+languageCode: fa-ir
+defaultContentLanguage: fa
+
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -16,10 +20,10 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  title: وبلاگ آموزش
+  description: "آرشیو آموزش و ترفند های کاربردی"
+  keywords: [کاربردی, وبلاگ, آموزش]
+  author: وودی
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -27,11 +31,11 @@ params:
   disableThemeToggle: false
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
-  ShowWordCount: true
+  ShowWordCount: false
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
@@ -45,15 +49,15 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "https://uploadkon.ir/uploads/thumbs/c10815_25ico-2.png"
+    favicon16x16: "https://uploadkon.ir/uploads/thumbs/c10815_25ico-2.png"
+    favicon32x32: "https://uploadkon.ir/uploads/thumbs/c10815_25ico-2.png"
+    apple_touch_icon: "https://uploadkon.ir/uploads/thumbs/c10815_25ico-2.png"
+    safari_pinned_tab: "https://uploadkon.ir/uploads/thumbs/c10815_25ico-2.png"
 
   label:
-    text: "Home"
-    icon: /apple-touch-icon.png
+    text: "وبلاگ"
+    icon: "/apple-touch-icon.png"
     iconHeight: 35
 
   # profile-mode
@@ -73,16 +77,16 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "وبلاگ آموزشی"
+    Content: آرشیو آموزش و ترفند های کاربردی
 
   socialIcons:
-    - name: x
-      url: "https://x.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
-    - name: github
-      url: "https://github.com/"
+    - name: 
+      url: ""
+    - name: 
+      url: ""
+    - name: 
+      url: ""
 
   analytics:
     google:
@@ -99,7 +103,7 @@ params:
 
   editPost:
     URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
+    Text: "آپدیــت" # edit text
     appendFilePath: true # to append file path to Edit link
 
   # for search
@@ -116,22 +120,26 @@ params:
 menu:
   main:
     - identifier: categories
-      name: categories
+      name: دسته بندی
       url: /categories/
       weight: 10
     - identifier: tags
-      name: tags
+      name: تگ
       url: /tags/
       weight: 20
     - identifier: example
-      name: example.org
-      url: https://example.org
+      name: لینک
+      url: /
       weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
+  goldmark:
+    renderer:
+      unsafe: true
   highlight:
     noClasses: false
+
     # anchorLineNos: true
     # codeFences: true
     # guessSyntax: true

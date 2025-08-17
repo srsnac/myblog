@@ -1,13 +1,14 @@
 ---
-author: "woody"
-title: "آرشیو بات و آموزشهای کاربردی تلگرام برای ساخت استیکر"
+author: "وودی"
+title: "آموزش و بات های کاربردی ساخت استیکر در تلگرام"
 date: "2025-08-16"
-description: "Guide to emoji usage in Hugo"
-tags: ["telegram", "bot"]
+tags: ["تلگرام", "بات تلگرام"]
+categories: [تلگرام , بات , آموزش]
+description: "آرشیو بات و آموزش های کاربردی تلگرام برای ساخت استیکر"
 ShowToc: false
 ShowBreadCrumbs: false
 ---
-![](https://uploadkon.ir/uploads/4cfc30_25c39204c6c4fbe62a224d2.png)
+![](https://uploadkon.ir/uploads/0b2615_25aa32094fb886b5bd20c6e5de376f601a.jpg)
 
 **اینجا چند تات از آموزشها و لیست باتهایی که تو ساخت پک استیکر تلگرامی کمکتون میکنه رو گذاشتم که میتونید ازشون استفاده کنید** ![](https://s33.picofile.com/file/8485364684/Totoro59.gif) 
 
@@ -28,7 +29,7 @@ ShowBreadCrumbs: false
 
 این بات ریسایزر علاوه بر اینکه عکس هارو میتونه متناسب با استاندارد ساخت استیکر تنظیم کنه، میتونه با تغییر مود عکس هارو متناسب با استناندارد ساخت ایموجی هم تنظیم کنه؟ برای مثال وقتی خواستید که از یه عکسی که دارید هم تو پک استیکرتون داشته باشید هم تو پک ایموجیتون، با ارسال دستور /mode میتونید انتخاب کنید که الان میخواید عکستون متناسب با سایز استیکر باشه یا ایموجی؛
 
-![](https://s33.picofile.com/file/8485364700/Totoro23.gif)
+<img class="divimg" src="https://s33.picofile.com/file/8485364700/Totoro23.gif">
 
 ![](https://s33.picofile.com/file/8485364718/184.gif) **معرفی چند تا بات کاربردی در زمینه ساخت استیکر:**
 
@@ -40,4 +41,4 @@ ShowBreadCrumbs: false
 
  برای دیدن آموزش و ترفند های بیشتر به [چنلمـــــون](https://t.me/balteredit) سر بزن ![](https://s33.picofile.com/file/8485364400/Totoro18.gif)
 
-![](https://s33.picofile.com/file/8485364392/Totoro.gif)
+<img class="divimg" src="https://s33.picofile.com/file/8485364392/Totoro.gif">
